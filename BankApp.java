@@ -10,7 +10,7 @@ class BankInfo {
 
   // Opening New Account
   public void openAccount() {
-    System.out.print("Welcome, Please Enter an Account Number");
+    System.out.print("Welcome To Flexisaf Thrift Application, Please Enter an Account Number: ");
     // The next() method in java is present in the Scanner class and is used to get the input from the user
     account_number = sc.next();
     System.out.print("Enter Name");
